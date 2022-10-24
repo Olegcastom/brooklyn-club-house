@@ -477,17 +477,20 @@ body {
 .footer-grid-right {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .footer-grid-left-form {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .footer-grid-left-form-name {
     margin-bottom: 30px;
     background-color: #6D6D6D;
     border-bottom: 1px solid #fff;
+    color: #F9F8F2;
 }
 
 .footer-grid-left-form-box {
@@ -517,6 +520,7 @@ body {
 }
 
 .footer-grid-left-form-btn {
+    display: inline-block;
     margin-top: 50px;
     padding: 17px 52px 22px 52px;
     background-color: #6D6D6D;
