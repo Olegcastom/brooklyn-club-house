@@ -97,6 +97,36 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 }
 
 
+@media screen and (max-width:1239px) {
+    .container {
+        width: 1000px;
+    }
+
+    .location-map-frame {
+        width: 100%;
+        height: 400px !important;
+    }
+
+
+}
+
+@media screen and (max-width:999px) {
+    .container {
+        width: 640px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width:639px) {
+    .container {
+        width: 320px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+
 /* ОБЩЕЕ */
 
 
@@ -109,7 +139,7 @@ body {
 
 .container {
     max-width: 1240px;
-    margin: 0 auto;
+    margin: 0px auto;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -323,6 +353,11 @@ body {
     margin-top: 50px;
 }
 
+.location-map-frame {
+    width: 100%;
+    height: 500px;
+}
+
 
 /* GAlERY */
 
@@ -500,6 +535,16 @@ body {
 
 .footer-grid-left-form-box-checkbox {
     margin-right: 10px;
+    background-color: #6D6D6D;
+    border-bottom: 1px solid #fff;
+    color: #F9F8F2;
+}
+
+.footer-grid-left-form-box-checkbox i {
+    margin-right: 10px;
+    background-color: #6D6D6D;
+    border-bottom: 1px solid #fff;
+    color: #F9F8F2;
 }
 
 .footer-grid-left-form-box-agree {
