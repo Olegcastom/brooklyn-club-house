@@ -17,6 +17,7 @@ a:focus, a:active {outline: none;}
 a {color:#4D4D4D;}
 nav, footer, header, aside{display: block;}
 html,body{
+font-family: 'SF Pro Display';
 height: 100%;
 width: 100%;
 font-size: 100%;
@@ -132,6 +133,18 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
         padding-right: 20px;
     }
 
+    .header-cov-h1-wrap {
+        overflow-wrap: break-word;
+    }
+
+    .grid-wrapper {
+        display: flex;
+    }
+
+    .about-left {
+        display: block;
+    }
+
 }
 
 
@@ -231,7 +244,6 @@ body {
 }
 
 .header-cov-h1 {
-    width: 780px;
     color: #F9F8F2;
     font-family: 'SF Pro Display';
     font-style: normal;
@@ -242,6 +254,7 @@ body {
 }
 
 .header-cov-h1-wrap {
+    width: 100%;
 
 }
 
