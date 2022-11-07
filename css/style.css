@@ -138,11 +138,18 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     }
 
     .grid-wrapper {
-        display: flex;
+        display: flex !important;
+        flex-direction: column;
     }
 
-    .about-left {
-        display: block;
+    .about-left-flex-column {
+        display: flex;
+        flex-direction: c;
+    }
+
+    .about-left-column {
+        display: flex;
+        flex-direction: row !important;
     }
 
 }
@@ -296,7 +303,9 @@ body {
 }
 
 .about-left-flex-column {
-    display: flex;
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    
 }
 
 .about-left-column {
@@ -305,7 +314,7 @@ body {
 }
 
 .about-left-column-item {
-    margin-right: 103px;
+    margin-right: 0px;
 }
 
 .about-left-line-item-1and2 {
